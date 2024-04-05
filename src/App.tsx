@@ -7,6 +7,7 @@ import MuiTextFields from './components/MuiTextFields';
 import Select from './components/Select';
 import RadioButton from './components/RadioButton';
 import CheckBox from './components/CheckBox';
+import Switch from './components/SwitchMui';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <MuiTextFields/> */}
       {/* <Select /> */}
       {/* <RadioButton /> */}
-      <CheckBox />
+      {/* <CheckBox /> */}
+      <Switch />
     </div>
   );
 }
